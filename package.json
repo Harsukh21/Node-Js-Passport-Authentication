@@ -1,5 +1,5 @@
 {
-  "name": "loginsystem",
+  "name": "Login-with-Passport-Authenticated",
   "version": "1.0.0",
   "description": "how to make login system in nodejs",
   "main": "index.js",
@@ -16,8 +16,14 @@
   "author": "Harsukh Makwana",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.7",
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
